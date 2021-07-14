@@ -1,0 +1,342 @@
+/* ---Font--style-- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* --------Common--style--- */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+/* ------header---style-start-- */
+.banner{
+    background-color: blue;
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+}
+.banner-text{
+    margin-left: 157px;
+    margin-top: 150px;
+    margin-bottom: 169px;
+    padding-bottom: 20px;
+}
+.banner-text>h1{
+    font-size: 64px;
+    font-weight: bold;
+    color: #FFFFFF;
+    
+}
+.banner-text>button{
+    width: 168px;
+    height: 44px;
+    font-weight: 500px;
+    font-size: 16px;
+    background-color: crimson;
+    color:#FFFFFF;
+    transition: 0.6s;
+}
+.banner-text>button:hover{
+    transform: scale(1.1);
+
+}
+.banner-logo>img{
+    width: 556px;
+    height: 438px;
+    margin-top: 153px;
+    margin-bottom: 86px;
+
+}
+
+/* ----header--style--end-- */
+
+
+/* ----players--style--start-- */
+.container{
+    margin-top: 70px;
+    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 158px;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-column-gap: 35px;
+    grid-row-gap: 30px;
+       
+}
+
+.play{
+    width: 300px;
+    border: 10px solid white;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+}
+
+.player-img>img{
+    width: 300px;
+    height: 256px;
+}
+.player-info{
+    width: 300px;
+    height: 184px;
+    padding: 5px;
+    letter-spacing: 0;
+    box-sizing: border-box;
+    
+}
+/* ------players---style--end-- */
+
+/* -----form--style----start-- */
+
+.form-site{
+    width: auto;
+    
+}
+.form{
+    margin-top: 100px;
+    text-align: center;
+}
+lavel{
+    color: plum;
+}
+.name-form{
+    background-color: plum;
+    color: black; 
+    width: 500px;
+    height: 30px;
+    padding: 10px;
+    font-size: 1rem;
+}
+.email-form{
+    background-color: plum;
+    color:black;
+     width: 500px;
+     height: 30px;
+     padding: 10px;
+     font-size: 1rem;
+     margin-left: 4px;
+}
+.text-area-form{
+    background-color: plum;
+    color: black;
+     width: 600px;
+     height: 80px;
+     padding: 10px;
+     font-size: 1rem;
+}
+.button-form{
+    background-color: plum;
+    color: black;
+    font-weight: bold;
+    width:100px;
+    height: 35px;
+}
+
+/* -------form----style-----end---- */
+
+
+
+
+/* footer----start-- */
+
+.footer-img>img{
+    width: 483.87px;
+    height: 110px;
+    margin-left: 310px;
+    margin-top: 100px;
+}
+.footer-icon{
+    text-align: center;
+    margin-top: 10px;
+}
+.footer-icon>a>img{
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+}
+.footer-text>h3{
+    font-weight:lighter;
+    text-align: center;
+}
+
+/* ----footer---end */
+
+/* media-query-for-mobile */
+@media only screen and (max-width:767px){
+        
+       
+        
+        .banner{
+            width: 100%;
+            display: block;
+            grid-template-columns: repeat(1,1fr);
+            margin: 0;
+        }
+        .banner-text{
+            margin: 0;
+            padding-top: 50px;
+           
+        }
+        .banner-text>h1{
+            font-size: 36px;
+            margin: 0;
+            margin-left: 20px;
+        
+        }
+        .banner-logo>img{
+            width: 329px;
+            height: 260px;
+            margin: 0;
+            margin-left: 40px;
+           
+            
+        }
+        button{
+            width: 168px;
+            height: 44px;
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+        button:hover{
+            transform: scale(1em);
+      
+        }
+
+        .players{
+            display: grid;
+            grid-template-columns: repeat(1 ,1fr);
+            grid-column-gap: 35px;
+            grid-row-gap: 30px;
+               
+        }
+
+    
+        .form-site{
+            width: auto;
+            
+        }
+        .form{
+            margin-top: 100px;
+            text-align: center;
+            background-color: cyan ;
+            padding-top: 20px; 
+            padding-bottom: 20px;
+        }
+        lavel{
+            color: black;
+        }
+        .name-form{
+            background-color:plum;
+            color: black; 
+            width: 200px;
+            height: 20px;
+            padding: 10px;
+            font-size: 0.7rem;
+        }
+        .email-form{
+            background-color: plum;
+            color: black;
+             width: 200px;
+             height: 20px;
+             padding: 10px;
+             font-size: 0.7rem;
+             
+        }
+        .text-area-form{
+            background-color: plum;
+            color: black;
+             width: 300px;
+             height: 50px;
+             padding: 10px;
+             font-size: 0.7rem;
+        }
+        .button-form{
+            background-color: plum;
+            color: black;
+            width: 80px;
+            height: 25px;
+        }
+        
+    
+
+
+        
+    .footer-img>img{
+      width: 270px;
+        height: 80px;
+        margin: 0;
+        margin-top: 60px;
+       
+    }
+ }
+/* -------------mobile------End------ */
+
+
+
+/* ------tab--start-- */
+@media screen and (min-width:768px) and (max-width:1023px){
+
+
+    .banner{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 0;
+    }
+
+    .banner-text{
+        margin: 0;
+        padding-top: 50px;
+       
+    }
+    .banner-text>h1{
+        font-size: 36px;
+        margin: 0;
+        margin-left: 20px;
+    
+    }
+    .banner-logo>img{
+        width: 329px;
+        height: 260px;
+        margin: 0;
+        margin-left: 40px;
+        padding-top: 40px;
+        
+       
+        
+    }
+    button{
+        width: 168px;
+        height: 44px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    button:hover{
+        transform: scale(1em);
+  
+    }
+
+    
+
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        grid-column-gap: 35px;
+        grid-row-gap: 30px;
+           
+    }
+
+
+    
+    .footer-img>img{
+    width: 270px;
+    height: 80px;
+    margin-left: 230px;
+    }
+}
+
+/* ------END------ */
